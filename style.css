@@ -15,7 +15,7 @@
     min-height: 700px;
     margin: 0 auto;
     margin-top: 50px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     background-image: url("images/Banner\ Image.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -57,104 +57,70 @@
 }
 
 
-.discount-section {
-   max-width: 902.9px;
-    height: 806px;
-    border: 2px solid red;
+.discount-section-container {
+    max-width: 802.9px;
+    max-height: 806px;
     margin: 0 auto;
     margin-top: 100px;
+    min-height: 806px;
+
+}
+
+.discount-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    width: 802.9px;
+    height: 500px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
 }
 
 
-.discount-section h1 {
-    width: 383px;
-    height: 107px;
+
+.discount-section-content h1 {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
-    line-height: 107px;
-    letter-spacing: 0%;
     text-align: center;
-    padding-bottom: 0px;
-    margin-bottom: 40px;
 }
 
-
-
-.discount-section p {
-    margin-bottom: 20px;
-    width: 397px;
-    height: 29px;
+.discount-section-content p {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    line-height: 29px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
-.discount-section h3 {
-    margin-top: 0;
-    width: 410px;
-    height: 58px;
+
+.discount-section-content h3 {
     color: rgb(7, 2, 17);
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
-.party {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-.imgbg {
-    width: 1620px;
+.party-section-container{
+    max-width: 1620px;
+    max-height: 700px;
+    min-height: 700px;
     margin: 0 auto;
-    height: 600px;
-    border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("images/Vectorrr.png");
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("images/Vectorrr.png");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 0;
-}
-
-.party .welcome h1 {
-    color: rgb(255, 255, 255);
-    font-family: Merriweather;
-    font-size: 64px;
-    font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 11%;
-    text-align: left;
-    width: 642px;
-    height: 176px;
-    left: 20.15%;
-    right: 31.21%;
-    top: 353.67%;
-}
-
-.party .imgbg p {
-    color: rgba(255, 255, 255, 0.8);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 0%;
-    text-align: left;
-    width: 697px;
-    height: 60px;
-    left: 266px;
-    right: 357px;
-}
-
-.img2024 img {
-    /* Layer 1 */
-    position: absolute;
-    width: 349.16px;
-    height: 464.65px;
+    border-radius: 16px;
+    background-blend-mode: overlay;
 }
