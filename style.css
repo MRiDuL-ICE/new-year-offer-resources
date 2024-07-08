@@ -110,17 +110,315 @@
     text-align: center;
 }
 
-.party-section-container{
+.party-section-container {
     max-width: 1620px;
     max-height: 700px;
     min-height: 700px;
     margin: 0 auto;
     margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-image: url("images/Vectorrr.png");
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("images/Vectorrr.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
-    background-blend-mode: overlay;
+    display: flex;
+    justify-content: space-between;
+}
+
+.party-section-content {
+    width: 80%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 130px;
+}
+
+.party-section-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.party-section-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.party-section-content a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.party-section-img-content {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-section-container {
+    max-width: 1620px;
+    max-height: 700px;
+    min-height: 700px;
+    border-radius: 16px;
+    background-image: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-description {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.event-description p span {
+    color: red;
+    text-transform: capitalize;
+}
+
+.event-description p {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.event-description button {
+    width: 167px;
+    height: 56px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+}
+
+.best-offer-section-container {
+    max-width: 1620px;
+    max-height: 600px;
+    min-height: 600px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offer-comming-soon {
+    width: 33.33%;
+}
+
+.offer-comming-soon h4 {
+    width: 207px;
+    height: 29px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.offer-comming-soon h1 {
+    width: 328px;
+    height: 60px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.offer-comming-soon p {
+    width: 393px;
+    height: 128px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.red-circle {
+    width: 33.33%;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    width: 463px;
+    height: 463px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-circle img {
+    width: 364.84px;
+    height: 364.84px;
+}
+
+.offer-rightside {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 280px;
+}
+
+.offer-rightside h1 {
+    width: 126px;
+    height: 58px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.offer-rightside p {
+    width: 276px;
+    height: 96px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.offer-rightside img {
+    width: 140px;
+    height: 140px;
+}
+
+.holiday-sale-section-container {
+    max-width: 1620px;
+    max-height: 1100px;
+    min-height: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.holidaysale-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holidaysale-content h4 {
+    width: 263px;
+    height: 29px;
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.holidaysale-content h1 {
+    width: 677px;
+    height: 91px;
+    font-family: Merriweather;
+    color: black;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.holidaysale-content h1 span {
+    width: 677px;
+    height: 91px;
+    font-family: Merriweather;
+    color: red;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.holidaysale-content p {
+    width: 1068px;
+    height: 96px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bottom-solid-color {
+    width: 1620px;
+    position: absolute;
+    top: 71.8%;
+    height: 310px;
+    border-radius: 16px 16px 16px 16px;
+    background-color: rgb(255, 0, 0);
+}
+
+.giftbox {
+    width: 574.82px;
+    height: 777.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount-container{
+    margin-left: 350px;
+    width: 305.69px;
+    height: 305.69px;
 }
